@@ -20,3 +20,13 @@
 .App-link {
   color: #09d3ac;
 }
+.weatherAppContainer{
+  border: 1px solid black; 
+}
+.weekContainer{
+  border: 1px solid red; 
+}
+
+.dayContainer{
+  border: 1px solid blue; 
+}

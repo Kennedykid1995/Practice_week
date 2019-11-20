@@ -26,7 +26,13 @@
 .weekContainer{
   border: 1px solid red; 
 }
-
+.weekHolder{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+}
 .dayContainer{
   border: 1px solid blue; 
+  height: 450px;
+  width: 200px; 
 }

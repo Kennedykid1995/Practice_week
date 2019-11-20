@@ -7,10 +7,10 @@ class Day extends React.Component {
       <div className="weekHolder">
         <div className="dayContainer">
           <h1>Sunday</h1>
-          <section>
+          <section className="weatherImg">
             <h1>Image</h1>
           </section>
-          <section>
+          <section className="weatherReport">
             <h1>Weather</h1>
           </section>
         </div>

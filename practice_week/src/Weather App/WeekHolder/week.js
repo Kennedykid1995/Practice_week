@@ -8,6 +8,11 @@ class Week extends React.Component {
     return (
       <div>
         <h1>Week</h1>
+        <div className="input-section">
+            <input placeholder="city" />
+            <input placeholder="country"/>
+            <button>Get Weather</button>
+        </div>
         <div className="weekContainer">
          <Day />
          </div>
